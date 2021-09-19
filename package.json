@@ -1,0 +1,19 @@
+{
+  "name": "@digvan/c-v-3",
+  "version": "0.0.2",
+  "description": "Reusable UI components for Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test'",
+    "publish": "npm version patch && npm publish --access=public --registry=https://registry.npmjs.org"
+  },
+  "keywords": [
+    "vue3",
+    "component"
+  ],
+  "author": "511",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.0.5"
+  }
+}
