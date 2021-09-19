@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'no test'",
-    "publish": "npm version patch && npm publish --access=public --registry=https://registry.npmjs.org"
+    "pub": "npm version patch && npm publish --access=public --registry=https://registry.npmjs.org"
   },
   "keywords": [
     "vue3",
