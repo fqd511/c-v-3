@@ -1,0 +1,18 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "compilerOptions": {
+    "target": "esnext",
+    // 这一行待定，无此行时编译报错
+    "useDefineForClassFields": false,
+    "allowJs": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noEmit": true,
+    "downlevelIteration": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["components", "index.ts", "env.d.ts"],
+  "exclude": ["node_modules/*"]
+}

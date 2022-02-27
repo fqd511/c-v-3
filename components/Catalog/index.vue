@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import * as Vue from "vue";
 
 export default Vue.defineComponent({
@@ -34,7 +34,6 @@ export default Vue.defineComponent({
     },
   },
   setup(props) {
-    console.log(props.subjects)
     return props;
   },
   computed: {
