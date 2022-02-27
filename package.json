@@ -1,6 +1,6 @@
 {
   "name": "@digvan/c-v-3",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Reusable UI components for Vue.js",
   "main": "dist/c-v-3.umd.js",
   "module": "dist/c-v-3.es.js",
